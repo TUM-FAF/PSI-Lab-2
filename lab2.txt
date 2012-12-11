@@ -1,0 +1,6 @@
+Lab #2 
+
+-The Client App has to connect to a database to (periodically) retrieve data 
+-The user can comment on services (reading from keyboard and saving to a file)
+-The Server sends newsletters to  Clients
+

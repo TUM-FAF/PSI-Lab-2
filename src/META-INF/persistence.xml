@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<persistence-unit name="test" transaction-type="RESOURCE_LOCAL">
+		<class>entity.Activitie</class>
+		<class>entity.Bank</class>
+		<class>entity.Campaign</class>
+		<class>entity.Child</class>
+		<class>entity.Contact</class>
+		<class>entity.Investment</class>
+		<class>entity.Location</class>
+		<class>entity.Need</class>
+		<class>entity.Orphanage</class>
+		<class>entity.Talent</class>		
+		<class>entity.User</class>
+
+		<properties>
+			<property name="openjpa.ConnectionURL" value="jdbc:mysql://localhost:3306/scooby" />
+			<property name="openjpa.ConnectionDriverName" value="com.mysql.jdbc.Driver" />
+			<property name="openjpa.ConnectionUserName" value="root" />
+			<property name="openjpa.ConnectionPassword" value="1111" />
+			<property name="openjpa.RuntimeUnenhancedClasses" value="supported" />
+		</properties>
+	</persistence-unit>
+</persistence>

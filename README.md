@@ -1,35 +1,32 @@
-Lab Work #2. A bit of TDD.
-===
-Due November 22nd.
+In this laboratory work we will skip the GUI part, and focus only on the back-end. 
 
-1. Test descriptions
----
+Team member #1:
+1. As a user I want to login
+Users will be able to login to the site. The test case will check if validation processes is working without errors.
 
-Describe 3 features of your application per team member, each of them consisting of at least two scenarios of usage. Use plain text to describe your features. Try to adhere to to the format of user stories. http://en.wikipedia.org/wiki/User_story
+2. As a user I want to be able to view orphanages based on location
+Users will be able to perform basic select of the orghanages. 
 
-Please keep them as simple as possible, you won't be able to write a fully-functional system in this lab. You'll need to pass through some of the steps of TDD, so picking a feature that's easy to test is crucial.
+3. As a user I want to be able to add orphanages in the database. 
+Users who will visit the site have to be able to add new about orphanages (for crowd sourcing). Normally, 
+the information provided by various users will be submitted for validation. The features that will be tested are: adding new orphanage.
 
-2. Tests
----
+ Team member #2:
+1. As a user I want to be able to view all the orphanages.
+All the user should be able to access a list of orphanages from the database. 
+We should be able to connect to the database and pull the information from there. 
 
-Based one of your scenarios, you have to design an end-to-end test for that feature and write it using the available tools in your language. For instance, if you would take Java, an option would be to use JUnit. Describe what are the features provided by the tools.
-Identify the mocks you need to use for the scenario and mock them using the corresponding libraries.
+2. As a user I want to view all the needs of an orhpanage
+Users will be able to access our site and to see what the orphanages need now and what are the common necessities.
 
-3. Actual code
----
+3. As an admin I want to add users
+All the admin users will be able to add new users.
+The test case has to prove that the insertion in the database is working normally. 
 
-After you have seen your test fail, write the correspoding code what would implement the feature.
-
-4. How to do it?
----
-Create a folder with the name of the project in the root of the repository. Create two folders: `test` and `src`. Write the code, commit at every significant change. Add a README file to your folder with the description of your lab. In the end, it should look like this:
-    
-    |- project_name\
-        |
-        |- README
-        |- test\
-        |    |- test.py
-        |- code\
-            |- code.py
-
+http://docs.oracle.com/cd/E13189_01/kodo/docs40/full/html/ejb3_overview_query.html
+http://www.michaelminella.com/testing/unit-testing-with-junit-and-easymock.html
+http://www.oracle.com/technetwork/issue-archive/2005/05-jul/o45testing-084928.html
+http://www.javacodegeeks.com/2012/01/tips-for-testing-database-code.html
+http://www.javaranch.com/journal/2003/12/UnitTestingDatabaseCode.html
+http://www.dallaway.com/acad/dbunit.html
 
